@@ -645,15 +645,28 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: rgb(255, 164, 93);
+    position: relative;
+}
+#h1color{
+    color: white!important;
+}
+#h2color{
+    color: black!important;
 }
 
+.linkfooter{
+    color: white!important;
+}
+
+label{
+    color: #a4602b!important;
+}
 .container {
     max-width: 1000px;
 }
@@ -677,7 +690,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -722,10 +735,6 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
 h4 {
     color: #333333!important;
 }
@@ -753,7 +762,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(0 0 0/ 0.60);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,15 +780,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
-}
-
-.tc-white {
-    color: #F3976C!important;
+    background-color: #a4602b;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background-color: rgb(164 96 43);
     color: #FFFFFF!important;
 }
 
