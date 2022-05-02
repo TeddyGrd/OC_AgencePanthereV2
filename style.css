@@ -656,8 +656,10 @@ a {
 #h1color{
     color: white!important;
 }
-#h2color{
+#h2title{
     color: black!important;
+    margin:auto;
+    width: 60%;
 }
 
 .linkfooter{
@@ -749,6 +751,7 @@ h4 {
 }
 
 .portfolio-thumb {
+    margin: auto;
     margin-bottom: 24px;
 }
 
